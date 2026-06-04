@@ -30,3 +30,5 @@ public class Category {
     @OneToMany(mappedBy = "category")
     private List<Course> courses;
 }
+
+
