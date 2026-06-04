@@ -1,0 +1,11 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+  datasource:
+    url: jdbc:postgresql://localhost:5432/e-learning
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: 1234
+  application:
+    name: E-learning-project
