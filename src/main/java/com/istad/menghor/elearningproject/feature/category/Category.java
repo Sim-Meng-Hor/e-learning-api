@@ -24,7 +24,7 @@ public class Category {
     private String icon;
 
     @Column(nullable = false)
-    private Boolean isDeleted;
+    private Boolean isDeleted = false;
 
 
     @OneToMany(mappedBy = "category")
